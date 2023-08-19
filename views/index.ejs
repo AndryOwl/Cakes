@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Component List</title>
+</head>
+<body>
+  <h1>Список Тортов</h1>
+  <form id="select-form">
+    <label for="dish-select">Select a Dish:</label>
+    <select id="dish-select" name="dish">
+      <% jsonData.forEach(component => { %>
+        <option value="<%= component.id %>"><%= component.name %></option>
+      <% }); %>
+    </select>
+    <button id="view-ingredients-button" type="button">View Ingredients</button>
+  </form>
+  <div id="ingredients-container"></div>
+  <a href="/add">Добавить новый Торт</a>
+  <script src="/js/index.js"></script> <!-- Assuming the JavaScript file is in the /public/js/ directory -->
+</body>
+</html>
