@@ -83,6 +83,8 @@ app.post('/add-ingredient', (req, res) => {
 app.get('/ingredients/:dishId', (req, res) => {
   const dishId = req.params.dishId;
 
+
+
   // Read the ingredients from ingredients.json
   fs.readFile('./ingredients.json', 'utf8', (err, data) => {
     if (err) {
