@@ -1,4 +1,4 @@
 [
     {"id": 1, "name": "Flour", "price": 300, "amount": "500","dishId": 1},
-    {"id": 2, "name": "Sugar", "price": 80, "amount": "300","dishId": 1}
+    {"id": 2, "name": "Sugar", "price": 80, "amount": "300","dishId": 2}
   ]
