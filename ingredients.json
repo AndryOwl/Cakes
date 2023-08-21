@@ -1,4 +1,1 @@
-[
-    {"id": 1, "name": "Flour", "price": 300, "amount": "500","dishId": 1},
-    {"id": 2, "name": "Sugar", "price": 80, "amount": "300","dishId": 2}
-  ]
+[{"id":1,"name":"Flour","price":300,"amount":"500","dishId":1},{"id":2,"name":"Sugar","price":80,"amount":"300","dishId":2},{"id":6,"name":"Сок лимонный","price":10,"amount":"100","dishId":2},{"id":4,"name":"Молоко","price":100,"amount":"50","dishId":1},{"id":5,"name":"Бархат","price":200,"amount":"300","dishId":2}]

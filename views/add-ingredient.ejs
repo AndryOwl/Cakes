@@ -12,11 +12,21 @@
     <input type="text" id="name" name="name" required><br>
 
     <label for="price">Price: </label>
-    <input type="number" step="0.01" id="price" name="price" required><br>
+    <input type="number" step="1" id="price" name="price" required><br>
 
     <label for="amount">Amount: </label>
     <input type="text" id="amount" name="amount" required><br>
 
+    <label for="dish">Select a Dish:</label>
+  <select id="name" name="dishName">
+    <% jsonData.forEach(dish => { %>
+      <option value="<%= dish.name %>"><%= dish.name %></option>
+    <% }); %>
+  </select>
+
+  <button type="submit">Add Ingredient</button>
+</form>
+  
     <button type="submit">Add Ingredient</button>
   </form>
   <a href="/">Back to Component List</a>
